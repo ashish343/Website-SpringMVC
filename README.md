@@ -1,11 +1,5 @@
 Website-SpringMVC
 =================
 
-Website-SpringMVC
+Sample Java-Maven Project
 
-How to run the App:
-1) mvn package - Creates a webrunner
-
-2) ant build deploywar
-
-3) java -jar target\dependency\webapp-runner.jar *.war
