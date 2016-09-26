@@ -19,8 +19,9 @@ public class HelloServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
         ServletOutputStream out = resp.getOutputStream();
-        out.write("Working heroku".getBytes());
-        out.flush();
+        out.write("Working Dokku".getBytes());
+        
+        out.flush(); 
         out.close();
     }
     
